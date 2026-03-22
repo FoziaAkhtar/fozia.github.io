@@ -10,3 +10,28 @@ body {
   color: #fff;
   font-size: 1.6em;
 }
+header {
+  width: 100%;
+  height: 700px;
+  padding: 50px;
+  background: url('../assets/images/headerbkg.jpg') 
+}
+ #logo {
+  width: 140px;
+}
+nav{
+  width: 100%;
+  height: 80px;
+  background: #eee;
+}
+main {
+  width: 100%;
+  height: 1200px;
+  background: #aaa;
+}
+footer {
+  width: 100%;
+  height: 200px;
+  background: #777;
+  margin-bottom: 50px;
+}
