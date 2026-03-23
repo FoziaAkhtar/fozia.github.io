@@ -20,18 +20,34 @@
   </nav>
   <main>
     <div id="about">
-      <h1>About Me</h1>
-      <p>Welcome to my website! I am a passionate web developer with experience in creating modern, responsive websites.</p>
+      <div id="leftAbout">
+        <img id="bioPic" src="assets/images/about.jpg" alt="about image">
+      </div>
+      <div id="rightAbout">
+        <h1>About Me</h1>
+        <p>Welcome to my website! I am a passionate web developer with experience in creating modern, responsive websites.</p>
+      </div>
     </div>
+    
+    
     <div id="services">
       <h1>Services</h1>
       <p>I offer a range of web development services to help your business succeed online.</p>
     </div>
+
     <div id="contact">
-      <h1>Contact</h1>
+      <h1>Contact Me</h1>
       <p>Get in touch with me to discuss your web development needs.</p>
+
+      <form id="contactForm">
+        <input type="text" name="Your name" placeholder="enter name" required>
+        <input type="email" name="Your email" placeholder="enter email" required>
+        <textarea name="Your message" rows="5" maxlength="500" placeholder="enter message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
     </div>
   </main>
+
   <footer>
    &copy; 2026 Shah Web Developers. All rights reserved.
   </footer>
